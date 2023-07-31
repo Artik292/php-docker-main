@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: artik292/php-docker-main:latest
+          tags: artik292/php-helloworld:test

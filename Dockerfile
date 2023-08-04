@@ -1,5 +1,5 @@
 # Выбираем базовый образ для ARM
-FROM arm64v8/php:latest
+FROM linux/arm64:latest
 
 # Копируем файлы вашего приложения в контейнер
 COPY index.php /var/www/html/index.php

@@ -1,5 +1,5 @@
 # Выбираем базовый образ для ARM
-FROM --platform=linux/arm64/v8 ubuntu:latest
+FROM --platform=linux/amd64 ubuntu:latest
 
 # Копируем файлы вашего приложения в контейнер
 COPY index.php /var/www/html/index.php

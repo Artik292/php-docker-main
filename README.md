@@ -32,3 +32,14 @@ wget -N http://files.softaculous.com/install.sh
 chmod 755 install.sh
 ./install.sh
 ```
+
+2. Check if everything is ok
+3. Copy all configs (Imynify360, JetaBackup, cPanel)
+4. Add all scripts:
+   ip_ban.py, ip_ban.sh, iptables.sh,
+   ```bash
+   30 0 * * * /root/monitoring/big-data-whm/cbf.py | mail -E -s 'Check big files verifikacija' martins@hostnet.lv
+   ```
+   inodes.zip
+   monitoring.zip
+5. /usr/local/cpanel/scripts/install_plugin cpanel-plugin-inodes

@@ -5,17 +5,17 @@
 cd /home && curl -o latest -L https://securedownloads.cpanel.net/latest && sh latest
 ```
 
-## Imunify360
-```bash
-wget https://repo.imunify360.cloudlinux.com/defence360/i360deploy.sh
-bash i360deploy.sh
-```
-
 ## CloudLinux
 ```bash
 wget https://repo.cloudlinux.com/cloudlinux/sources/cln/cldeploy
 sh cldeploy -i
 reboot
+```
+
+## Imunify360
+```bash
+wget https://repo.imunify360.cloudlinux.com/defence360/i360deploy.sh
+bash i360deploy.sh
 ```
 
 ## JetBackup 5
